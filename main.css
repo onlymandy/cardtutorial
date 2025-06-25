@@ -1,11 +1,41 @@
 
-
-#lily{
-    color: white;
-    background: black;  
-}
-
 body{
     background: pink;
 }
 
+#firstheader{
+    border: 2px solid white;
+}
+
+.cardholder{
+    border: 2px solid white;
+    /* height: 200px; */
+    width: 300px;
+    padding: 15px;
+    margin: 10px 0;
+
+}
+.daisy{
+ /* border-width: 10px;
+    border-style: dashed;
+    border-color:purple; */
+   border: 2px solid green; 
+
+   /*border-top:5px solid yellow;
+   border-right:5px solid green;
+   border-bottom:5px solid red;
+   border-left: 5px solid tomato; */
+
+  /* padding-bottom: 20px;
+   padding-left: 50px;
+   padding-right: 10px;
+   padding-top: 20px; */
+
+   padding: 100px 26px 69px 0;
+
+   /*marging-bottom: 42px ;
+   marging-left:30px;
+   margin-top: 60px; */
+
+   margin: 30px 20px;
+}
