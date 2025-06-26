@@ -4,17 +4,34 @@ body{
 }
 
 #firstheader{
-    border: 2px solid white;
+    border: 2px solid white; 
 }
 
 .cardholder{
-    border: 2px solid white;
+    border: 2px solid white; 
+   /* margin-left: 200px; */
     /* height: 200px; */
     width: 300px;
     padding: 15px;
     margin: 10px 0;
 
-}
+    display: inline-block;
+} 
+     
+.firstcard{
+        border: 2px solid rgb(244, 83, 107); 
+       /* margin-left: auto;
+        margin-right: auto; */
+    }
+
+    .parentdiv{
+        border: 2px solid rgb(247, 86, 110);
+        width: 85%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 .daisy{
  /* border-width: 10px;
     border-style: dashed;
