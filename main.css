@@ -1,5 +1,9 @@
 
 body{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  
+
     background: pink;
 }
 
@@ -11,26 +15,58 @@ body{
     border: 2px solid white; 
    /* margin-left: 200px; */
     /* height: 200px; */
-    width: 300px;
+    width: 340px;
     padding: 15px;
     margin: 10px 0;
-
+    /* height:210px; */
+    vertical-align: middle;
     display: inline-block;
+    border-radius: 8px;
+    text-align: left;
 } 
      
 .firstcard{
-        border: 2px solid rgb(244, 83, 107); 
-       /* margin-left: auto;
-        margin-right: auto; */
+      /*  border: 2px solid white; */
+        margin-left: auto;
+        margin-right: auto; 
+       /* border-top-right-radius: 8px; */
+        text-align: right;
     }
 
     .parentdiv{
-        border: 2px solid rgb(247, 86, 110);
-        width: 85%;
+        /* border: 2px solid white;  */
+        width: 90%;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
     }
+
+    .custom-roundedshape{
+        height:45px;
+        width:45px;
+        border-radius:50%;
+        border: 2px solid white;
+        text-align: center;
+        padding: 5px;
+        display: inline-block;
+    }
+
+    .custom-icons{
+        color: white;
+        font-size: 24px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    h2{
+        display: inline-block;
+    }
+
+    .header-container{
+       /* border: 2px dotted hotpink; */
+        text-align: left;
+    }
+
 
 .daisy{
  /* border-width: 10px;
